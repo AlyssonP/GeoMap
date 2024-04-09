@@ -1,0 +1,231 @@
+:root {
+  --verde-escuro: #1A5619;
+  --verde-escuro-02: #163415;
+  --verde-nivel-01: #2D6226;
+  --verde-nivel-02: #31642F;
+  --verde-claro: #E9FFE6;
+}
+
+/* Header */
+.navbar-geo {
+  background-color: var(--verde-escuro);
+  height: 50px;
+  padding: 0;
+}
+
+.navbar-geo .logotipo-geomap {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+
+.navbar-geo .logotipo-geomap img{
+  width: 28px;
+}
+
+.navbar-geo .logotipo-geomap span{
+  margin-left: 10px;
+}
+
+.sobre-geomap {
+  background: linear-gradient(180deg, #E9FFE6 0%, rgba(246, 255, 245, 0.00) 100%);
+}
+
+.text-sobre-geomap h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--verde-nivel-01);
+}
+
+.text-sobre-geomap p{
+  font-size: 20px;
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .sobre-geomap .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sobre-geomap img {
+    width: 250px;
+  }
+
+  .text-sobre-geomap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .text-sobre-geomap p {
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
+/* Main */
+.title-section {
+  margin-top: 40px;
+}
+.title-section h4{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.title-section p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.form-tipo-pesquisa {
+  margin-top: 30px;
+}
+.form-tipo-pesquisa label {
+  font-size: 16px;
+}
+.form-tipo-pesquisa select{
+  width: 270px;
+}
+
+.form-pesquisa .select-personalizado{
+  width: 270px;
+}
+
+.form-pesquisa .input-personalizado {
+  width: 270px;
+}
+
+.show-pesquisas{
+  max-width: 700px;
+}
+
+.show-map {
+  width: 100%;
+  height: 50vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--verde-escuro);
+}
+
+.campo-vazio {
+  max-width: 600px;
+  border-radius: 20px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.scroll-table{
+  height: 350px;
+  overflow-y: scroll;
+}
+
+/* Footer */
+footer {
+  color: white;
+  margin-top: 140px;
+}
+
+.section-footer-01 {
+  background-color: var(--verde-nivel-02);
+  min-height: 170px;
+}
+
+.section-footer-01 .logotipo-geomap span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.section-footer-01 .logotipo-geomap img {
+  width: 28px;
+}
+
+.section-footer-01 .sobre-geomap-footer p{
+  font-size: 14px;
+  max-width: 400px;
+}
+
+.section-footer-01 .infos-dev h5{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.section-footer-01 .infos-dev h5 span{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section-footer-01 .infos-dev ul{
+  padding: 0;
+}
+
+.section-footer-01 .contatos-dev li {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.section-footer-01 .contatos-dev li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-footer-01 .contatos-dev li a img{
+  width: 18px;
+  margin-right: 10px;
+}
+
+.section-footer-02 {
+  background-color: var(--verde-escuro-02);
+  height: 80px;
+}
+
+.section-footer-02 p{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.section-footer-02 img{
+  width: 140px;
+}
+
+@media (max-width: 768px) {
+  .section-footer-01{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section-footer-01 .sobre-geomap-footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .infos-dev{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .infos-dev .contatos-dev{
+    display: inherit;
+  }
+
+  .infos-dev .contatos-dev li {
+    margin-left: 10px;
+  }
+
+}

@@ -1,0 +1,29 @@
+-- Pesquisas
+Estados BR
+EndPoint = /estados
+
+Estados Região
+EndPoint = /estados/regiao/{regiao}
+
+Estados Vizinhos
+EndPoint = /estados/vizinhos/{uf}
+
+Municípios do Estado 
+EndPoint = /municipios/estado/{uf}
+
+Municípios Fronteira
+EndPoint = /municipios/fronteira/{nomeMunicipio}
+
+Municípios Fronteira Estado
+EndPoint = /municipios/fronteira/estado/{uf}
+
+Municípios Raio KM
+EndPoint = /municipios/raio_km/{distancia}/{nomeMunicipio}
+
+
+-- Apoio para campos de Pesquisa
+Regiões
+EndPoint = /regioes
+
+UFs
+EndPoint = /siglas_uf
