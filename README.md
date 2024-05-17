@@ -1,7 +1,7 @@
 <h1 align="center" style="font-weight: bold;">GeoMap</h1>
 
 <p align="center">
-    <img src="../.github/home.png" alt="geo-map">
+    <img src="https://github.com/AlyssonP/GeoMap/blob/main/.github/home.png" alt="geo-map"  width="700px">
 </p>
 
 ### 📌 Sobre
@@ -15,15 +15,15 @@ O GeoMap é a aplicação front-end dedicada a consumir uma API criada especific
 #### Back-end
 - [GeoSpringBootAPI](https://github.com/AlyssonP/GeoSpringBootAPI)
 
-### 💻 Páginas
+### 💻 Página
 #### Apresentação por tabela
 <p align="start">
-    <img src="../.github/pesquisa01.png" alt="pesquisa-table">
+    <img src="https://github.com/AlyssonP/GeoMap/blob/main/.github/pesquisa01.png" alt="pesquisa-table" width="700px">
 </p>
 
 #### Apresentação por Mapa
 <p align="start">
-    <img src="../.github/pesquisa02.png" alt="pesquisa-map">
+    <img src="https://github.com/AlyssonP/GeoMap/blob/main/.github/pesquisa02.png" alt="pesquisa-map" width="700px">
 </p>
 
 ### 🚀 Começando aplicação
